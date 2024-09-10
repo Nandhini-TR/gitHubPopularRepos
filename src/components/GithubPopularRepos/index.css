@@ -1,0 +1,44 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-heading {
+  font-size: 30px;
+  font-family: 'Lobster';
+  font-weight: bold;
+}
+
+.filter-ul-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.ul-list {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.failure-image {
+  height: 50vh;
+}
+
+.failure-description {
+  color: #1e293b;
+  font-family: 'Lobster';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.failure-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

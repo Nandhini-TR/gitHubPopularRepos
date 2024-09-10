@@ -1,0 +1,39 @@
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  border: 0px none;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  padding-top: 20px;
+}
+.avatar-image {
+  height: 30px;
+}
+
+.name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.counts-container {
+  display: flex;
+}
+
+.stars-image {
+  height: 20px;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+.count-description {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
